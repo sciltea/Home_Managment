@@ -42,8 +42,8 @@ DueDate datetime not null,
 PaymentStatus varchar(10) not null,
 PaymentMethod varchar(10) not null,
 ProviderName varchar(10) not null,
-BillingCycle int,
-ExpenseCategory varchar(max) not null)
+BillingCycle varchar(50) null,
+PaymentMethod varchar(max) null)
 go
 create table Maintenance   
 (ID int primary key,
